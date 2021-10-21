@@ -1,6 +1,6 @@
 #!/bin/bash
 > assessment.txt
-date +%d-%m-%y >> assessment.txt
+date >> assessment.txt
 echo
 echo
 echo "Informacoes da Distro utilizada $(hostname -i):" >> assessment.txt
